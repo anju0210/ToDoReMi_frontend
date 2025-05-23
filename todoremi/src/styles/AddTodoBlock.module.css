@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Pretendard';
+    border-radius: 15px;
+    border: 1px solid #55AD9B;
+    padding: 10px;
+}
+
+.emptyBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #55AD9B;
+    background-color: #E8E9E8;
+    width: 61px;
+    height: 61px;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+
+.txt{
+    font-size: 15px;
+    font-weight: 500;
+    color: #767676;
+    margin-bottom: 2px;
+}
+
+input{
+    border: none;
+}
