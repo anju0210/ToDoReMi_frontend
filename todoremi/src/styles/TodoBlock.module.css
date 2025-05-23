@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Pretendard';
+    border-radius: 15px;
+    background-color: #F5F6F3;
+    padding: 10px;
+}
+
+img{
+    width: 61px;
+    height: 61px;
+    border-radius: 10px;
+    margin-right: 13px
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.todoTitle{
+    font-size: 15px;
+}
+
+.song{
+    color: #767676;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+.playBtn{
+    height: fit-content;
+    border-radius: 15px;
+    background-color: #95D2B3;
+    color: white;
+    padding: 11px 11px 5px 11px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.completeBtn{
+    height: fit-content;
+    border-radius: 15px;
+    background-color: #CACACA;
+    color: white;
+    padding: 11px 11px 5px 11px;
+    margin-right: 6px;
+}
